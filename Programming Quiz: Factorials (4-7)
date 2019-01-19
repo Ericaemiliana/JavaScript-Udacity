@@ -1,0 +1,14 @@
+/*
+ * Programming Quiz: Factorials (4-7)
+ */
+
+// your code goes here
+var solution = 5; 
+
+ 
+
+for (var fact = solution; fact > 1; fact--){
+    solution = solution * (fact-1);
+}
+
+console.log(solution);
