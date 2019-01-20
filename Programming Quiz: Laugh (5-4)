@@ -1,0 +1,14 @@
+/*
+ * Programming Quiz: Laugh (5-4)
+ */
+
+var laugh = function(number){
+    var s = "";
+    for(i = 1; i<= number; i++){
+        s += "ha";
+    }
+    return s + "!";
+}
+
+
+console.log(laugh(10));
